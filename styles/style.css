@@ -49,3 +49,18 @@ ol {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
 }
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content {
+  display: grid;
+
+
+}
+
+.
