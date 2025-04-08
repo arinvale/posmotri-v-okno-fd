@@ -175,6 +175,67 @@ ol {
   white-space: nowrap;
 }
 
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 .search-form__fieldset {
   border: none;
+
 }
+
+.search-form__label {
+  display: flex;
+  justify-content: row;
+  width: fit-content;
+}
+
+.search-form__textfield {
+  width: 225px;
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  border-left: none;
+  border-right: none;
+  background: #FFFFFFB2;
+  background-color: transparent;
+  appearance: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #FFFFFF;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: none;
+}
+.search-form__checkbox-list::after {
+  content: "";
+  background-color: #FFFFFF;
+  width: 19px;
+  height: 19px;
+  border: 1px solid #FFFFFF;
+}
+
+.search-form__checkbox-list:checked::after {
+  content: "";
+  background-color: #FFFFFF;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #FFFFFF;
+}
+
+.
