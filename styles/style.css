@@ -220,22 +220,30 @@ ol {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  border: none;
 }
-.search-form__checkbox-list::after {
-  content: "";
-  background-color: #FFFFFF;
+
+.search-form__pseudo-checkbox {
+  background-color: transparent;
   width: 19px;
   height: 19px;
   border: 1px solid #FFFFFF;
+  margin-right: 5px;
 }
 
-.search-form__checkbox-list:checked::after {
+.search-form__pseudo-checkbox::after {
   content: "";
   background-color: #FFFFFF;
+  border: none;
   width: 18px;
   height: 18px;
-  border: 1px solid #FFFFFF;
 }
 
-.
+.search-form__pseudo-checkbox:checked::after {
+  content:"";
+  background-color: #FFFFFF;
+  border: none;
+  width: 18px;
+  height: 18px;
+ 
+
+}
