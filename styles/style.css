@@ -60,7 +60,7 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;;
+  height: 100vh;
 }
 
 .content {
@@ -82,6 +82,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__details {
@@ -130,7 +131,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -142,7 +143,7 @@ ol {
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: #FFFFFF;
 }
@@ -160,7 +161,7 @@ ol {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
+  line-height: 40px;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -169,7 +170,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
@@ -191,18 +192,18 @@ ol {
 
 .search-form__fieldset {
   border: none;
-
 }
 
 .search-form__label {
   display: flex;
-  justify-content: row;
+  justify-content: center;
+  flex-direction: row;
   width: fit-content;
 }
 
 .search-form__textfield {
   width: 225px;
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -214,6 +215,10 @@ ol {
   background: #FFFFFFB2;
   background-color: transparent;
   appearance: none;
+  cursor: pointer;
+}
+
+.search-form__label-text {
   cursor: pointer;
 }
 
@@ -265,7 +270,7 @@ ol {
 }
 
 .button {
-  font-family: Fira Sans Condensed, sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -274,17 +279,16 @@ ol {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
   cursor: pointer;
+  height: 34px;
 }
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   align-self: flex-end;
 }
 
 .more-button {
   width: 100%;
-  height: 34px;
   margin-top: 30px;
 }
 
@@ -308,6 +312,10 @@ ol {
 .content__card-link{
   display: block;
   cursor: pointer;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 .content__card-link_current:active {
