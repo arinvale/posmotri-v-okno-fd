@@ -1,4 +1,4 @@
-# posmotri-v-okno
+# ono-tebe-nado
 
 Ссылки:
-- Репозиторий проекта: [Ссылка](https://github.com/arinvale/posmotri-v-okno-fd)
+- Репозиторий проекта: https://github.com/arinvale/posmotri-v-okno-fd
